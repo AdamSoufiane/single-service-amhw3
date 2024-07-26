@@ -1,6 +1,6 @@
-package ai.shreds.adapter;
+package ai.shreds.Adapter;
 
-import ai.shreds.shared.SharedErrorResponseDTO;
+import ai.shreds.Shared.SharedErrorResponseDTO;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

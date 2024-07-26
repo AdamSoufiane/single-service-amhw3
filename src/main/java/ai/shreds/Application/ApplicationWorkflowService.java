@@ -1,7 +1,7 @@
-package ai.shreds.application;
+package ai.shreds.Application;
 
-import ai.shreds.domain.DomainAssociationEntity;
-import ai.shreds.domain.DomainWorkflowServicePort;
+import ai.shreds.Domain.DomainAssociationEntity;
+import ai.shreds.Domain.DomainWorkflowServicePort;
 import ai.shreds.shared.ApplicationCreateWorkflowRequestDTO;
 import ai.shreds.shared.ApplicationCreateWorkflowResponseDTO;
 import ai.shreds.shared.ApplicationPreviousWorkflowStepDTO;

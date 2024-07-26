@@ -1,4 +1,4 @@
-package ai.shreds.application;
+package ai.shreds.Application;
 
 import ai.shreds.shared.ApplicationCreateWorkflowRequestDTO;
 import ai.shreds.shared.ApplicationCreateWorkflowResponseDTO;

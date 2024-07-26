@@ -1,5 +1,6 @@
-package ai.shreds.domain;
+package ai.shreds.Domain;
 
+import ai.shreds.Application.ApplicationCreateWorkflowRequestDTO;
 import ai.shreds.shared.ApplicationCreateWorkflowRequestDTO;
 import java.util.List;
 

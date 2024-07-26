@@ -1,4 +1,4 @@
-package shared;
+package ai.shreds.Application;
 
 import lombok.Data;
 import java.util.List;

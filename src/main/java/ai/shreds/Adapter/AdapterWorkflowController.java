@@ -1,9 +1,11 @@
-package ai.shreds.adapter;
+package ai.shreds.Adapter;
 
-import ai.shreds.application.ApplicationWorkflowServicePort;
+import ai.shreds.Application.ApplicationCreateWorkflowRequestDTO;
+import ai.shreds.Application.ApplicationCreateWorkflowResponseDTO;
+import ai.shreds.Application.ApplicationWorkflowServicePort;
 import ai.shreds.shared.ApplicationCreateWorkflowRequestDTO;
 import ai.shreds.shared.ApplicationCreateWorkflowResponseDTO;
-import ai.shreds.shared.SharedErrorResponseDTO;
+import ai.shreds.Shared.SharedErrorResponseDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +17,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import javax.validation.Valid;
 import javax.validation.ConstraintViolationException;
-import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/workflow")

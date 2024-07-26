@@ -1,9 +1,8 @@
-package ai.shreds.domain;
+package ai.shreds.Domain;
 
+import ai.shreds.Application.ApplicationCreateWorkflowRequestDTO;
 import ai.shreds.application.ApplicationCreateWorkflowRequestDTO;
-import ai.shreds.domain.DomainAssociationEntity;
-import ai.shreds.domain.DomainWorkflowStepEntity;
-import ai.shreds.infrastructure.InfrastructureAssociationRepositoryPort;
+import ai.shreds.Infrastructure.InfrastructureAssociationRepositoryPort;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

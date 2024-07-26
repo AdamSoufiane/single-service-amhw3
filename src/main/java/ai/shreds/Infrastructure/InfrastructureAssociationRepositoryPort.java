@@ -1,6 +1,6 @@
-package ai.shreds.infrastructure;
+package ai.shreds.Infrastructure;
 
-import ai.shreds.domain.DomainAssociationEntity;
+import ai.shreds.Domain.DomainAssociationEntity;
 import java.util.List;
 import org.springframework.dao.DataAccessException;
 
